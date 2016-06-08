@@ -16,8 +16,8 @@ class home_model extends CI_Model
 		   if (!class_exists('S3')) require_once(APPPATH.'libraries/S3.php');
 			
 			//AWS access info
-			if (!defined('awsAccessKey')) define('awsAccessKey', 'AKIAJ6SLOULOZ4RM3JFQ');
-			if (!defined('awsSecretKey')) define('awsSecretKey', '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');
+			if (!defined('awsAccessKey')) define('awsAccessKey', 'enter-here');
+			if (!defined('awsSecretKey')) define('awsSecretKey', 'enter-here');
 			
 			//instantiate the class
 			$s3 = new S3(awsAccessKey, awsSecretKey);	
